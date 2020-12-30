@@ -20,6 +20,10 @@ export const getDailyJson = (state: AppStateType) => {
     return state.convertPage.DailyJson
 }
 
+export const getLatestJson = (state: AppStateType) => {
+    return state.convertPage.LatestJson
+}
+
 export const getLoadError = (state: AppStateType) => {
     return state.convertPage.loadError
 }
